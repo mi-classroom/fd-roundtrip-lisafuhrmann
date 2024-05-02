@@ -15,14 +15,13 @@ h2 {
   color: var(--color-lightest);
   font-size: var(--m);
   font-weight: var(--fw-regular);
-  padding: var(--s);
 }
 
 p {
   color: var(--color-lightest);
   font-size: var(--m);
   font-weight: var(--fw-light);
-  padding: var(--s);
+  padding: var(--s) var(--s) var(--s) 0;
 }
 
 section {

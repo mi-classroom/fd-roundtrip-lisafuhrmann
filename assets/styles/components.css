@@ -22,6 +22,20 @@
     margin: var(--s);
 }
 
+.slider img {
+  border-radius: 10px;
+  width: 300px;
+}
+
+.slider div {
+  flex-grow: 1;
+}
+
+.slider a {
+  display: inline-block;
+  margin: auto;
+}
+
 .redirect {
   text-align: right;
 }
