@@ -1,0 +1,27 @@
+.highlight {
+  color: var(--color-red);
+}
+
+.head {
+    background-color: var(--color-purple);
+    margin: 0 var(--s);
+    border: 0;
+    border-radius: 0 0 10px 10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider {
+    background-color: var(--color-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: var(--s);
+    border-radius: 5px;
+    margin: var(--s);
+}
+
+.redirect {
+  text-align: right;
+}

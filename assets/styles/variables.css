@@ -1,3 +1,25 @@
 :root {
-  --ff-primary: roboto, arial, helvetica, sans-serif;
+  --ff-primary: roboto, sans-serif;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --xs: 6px;
+  --s: 12px;
+  --m: 18px;
+  --l: 24px;
+  --xl: 36px;
+  --xxl: 42px;
+  --xxxl: 54px;
+  --xxxxl: 72px;
+  --color-darkest: #000000;
+  --color-grey: #B2ADA6;
+  --color-red: #DE3A3B;
+  --color-green: #9AA640;
+  --color-yellow:#EBB446;
+  --color-orange: #E76C3D;
+  --color-purple: #5C234E;
+  --color-lighter: #FDF9F3;
+  --color-lightest: #FFFFFF;
 }

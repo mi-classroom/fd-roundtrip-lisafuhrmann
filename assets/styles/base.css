@@ -1,0 +1,84 @@
+html, body {
+  background-color: var(--color-lightest);
+  font-family: var(--ff-primary);
+  font-size: var(--m);
+}
+
+h1 {
+  color: var(--color-lightest);
+  font-size: var(--l);
+  font-weight: var(--fw-light);
+  padding: var(--s);
+}
+
+h2 {
+  color: var(--color-lightest);
+  font-size: var(--m);
+  font-weight: var(--fw-regular);
+  padding: var(--s);
+}
+
+p {
+  color: var(--color-lightest);
+  font-size: var(--m);
+  font-weight: var(--fw-light);
+  padding: var(--s);
+}
+
+section {
+  margin: var(--m);
+}
+
+nav {
+  background-color: var(--color-purple);
+  padding: var(--s);
+  border: 0;
+  border-radius: 10px 10px 0 0;
+  position: fixed;
+  bottom: 0;
+  left: var(--s);
+  right: var(--s);
+  width: revert;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--s) var(--xl);
+  font-size: var(--s);
+}
+
+nav a {
+  color: var(--color-lightest);
+  text-decoration: none;
+  text-align: center ;
+}
+
+a {
+  color: var(--color-lightest);
+  text-decoration: none;
+}
+
+img {
+  padding-right: var(--s);
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: var(--s);
+  border-top: 2px solid var(--color-darkest);
+}
