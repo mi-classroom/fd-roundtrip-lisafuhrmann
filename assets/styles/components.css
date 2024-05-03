@@ -39,3 +39,8 @@
 .redirect {
   text-align: right;
 }
+
+.icon {
+  filter: invert();
+  mix-blend-mode: screen;
+}

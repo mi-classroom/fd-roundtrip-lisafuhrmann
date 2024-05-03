@@ -37,12 +37,13 @@ nav {
   bottom: 0;
   left: var(--s);
   right: var(--s);
+  margin: 0 auto;
   width: revert;
 }
 
 nav ul {
   display: flex;
-  justify-content: center;;
+  justify-content: space-between;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -59,7 +60,7 @@ nav ul li {
 nav a {
   color: var(--color-lightest);
   text-decoration: none;
-  text-align: center ;
+  text-align: center;
 }
 
 a {
@@ -72,7 +73,7 @@ img {
 }
 
 table {
-  table-layout: fixed;
+  table-layout: auto;
   width: 100%;
   border-collapse: collapse;
 }
